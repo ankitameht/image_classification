@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="faf687f7-afc7-4863-bdbe-3e2d4fc63ba7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/amehta02.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/R_User_Library.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/practice_keras.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/terminal.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326 (Back Side) -OK- (40).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326 (Front Side)-OK- (87).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326-SC-(20).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326-SD- (17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326-TH- (39).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/test_61326/61326-WR- (20).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(18).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(19).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Scratch Mark/61326-SC-(9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Slot Damage/61326-SD- (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (18).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (19).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (20).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (21).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (22).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (23).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (24).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (25).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (26).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (27).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (28).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (29).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (30).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (31).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (32).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (33).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (34).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (35).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (36).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (37).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (38).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Thinning/61326-TH- (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (18).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (19).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326 Wrinkle/61326-WR- (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (18).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (19).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (20).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (21).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (22).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (23).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (24).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (25).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (26).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (27).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (28).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (29).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (30).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (31).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (32).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (33).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (34).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (35).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (36).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (37).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (38).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (39).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_0k_back/61326 (Back Side) -OK- (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (1).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (10).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (11).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (12).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (13).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (14).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (15).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (16).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (17).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (18).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (19).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (2).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (20).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (21).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (22).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (23).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (24).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (25).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (26).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (27).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (28).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (29).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (3).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (30).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (31).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (32).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (33).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (34).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (35).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (36).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (37).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (38).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (39).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (4).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (40).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (41).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (42).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (43).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (44).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (45).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (46).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (47).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (48).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (49).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (5).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (50).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (51).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (52).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (53).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (54).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (55).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (56).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (57).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (58).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (59).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (6).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (60).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (61).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (62).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (63).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (64).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (65).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (66).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (67).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (68).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (69).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (7).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (70).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (71).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (72).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (73).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (74).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (75).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (76).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (77).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (78).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (79).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (8).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (80).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (81).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (82).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (83).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (84).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (85).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (86).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (9).jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/checkpoint" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/metal-face-model.data-00000-of-00001" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/metal-face-model.index" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/model/metal-face-model.meta" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/checkpoint" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/dataset.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/train.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="dataset.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="134" column="23" lean-forward="false" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/client/session.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="1073" column="0" lean-forward="false" selection-start-line="1073" selection-start-column="0" selection-end-line="1073" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/classification_model.py" />
+        <option value="$PROJECT_DIR$/src/dataset.py" />
+        <option value="$PROJECT_DIR$/src/test.py" />
+        <option value="$PROJECT_DIR$/src/train.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="820" />
+    <option name="y" value="300" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>BashSupport</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="All_61326" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="All_61326" type="462c0819:PsiDirectoryNode" />
+              <item name="test_61326" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="All_61326" type="462c0819:PsiDirectoryNode" />
+              <item name="train_61326" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice_keras" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice_keras" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="practice_keras" sdk-home="C:\ProgramData\Anaconda3\python.exe" working-directory="$PROJECT_DIR$/..">
+        <option name="mySdkHome" value="C:\ProgramData\Anaconda3\python.exe" />
+        <option name="myModuleName" value="practice_keras" />
+        <option name="myWorkingDirectory" value="$PROJECT_DIR$/.." />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\amehta02\PycharmProjects\practice_keras\model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\amehta02\PycharmProjects\practice_keras\data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="classification_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice_keras" />
+      <option name="SCRIPT_NAME" value="C:\Users\amehta02\PycharmProjects\practice_keras\src\dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dataset" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice_keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dataset.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice_keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="practice_keras" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.classification_model" />
+      <item index="1" class="java.lang.String" itemvalue="Python.train" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dataset" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.train" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dataset" />
+        <item index="3" class="java.lang.String" itemvalue="Python.classification_model" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\amehta02\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="faf687f7-afc7-4863-bdbe-3e2d4fc63ba7" name="Default" comment="" />
+      <created>1533017741040</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533017741040</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297769" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23885">
+          <caret line="1405" column="17" lean-forward="false" selection-start-line="1405" selection-start-column="17" selection-end-line="1405" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3213">
+          <caret line="199" column="70" lean-forward="false" selection-start-line="199" selection-start-column="70" selection-end-line="199" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23273">
+          <caret line="1405" column="17" lean-forward="false" selection-start-line="1405" selection-start-column="17" selection-end-line="1405" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23273">
+          <caret line="1405" column="17" lean-forward="false" selection-start-line="1405" selection-start-column="17" selection-end-line="1405" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="41" column="22" lean-forward="true" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="65" lean-forward="false" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23443">
+          <caret line="1379" column="4" lean-forward="false" selection-start-line="1379" selection-start-column="4" selection-end-line="1379" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/All_61326/train_61326/61326_ok_front/61326 (Front Side)-OK- (1).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/client/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="1073" column="0" lean-forward="false" selection-start-line="1073" selection-start-column="0" selection-end-line="1073" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/All_61326/test_61326/61326 (Back Side) -OK- (40).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/All_61326/test_61326/61326 (Front Side)-OK- (87).jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/numpy/core/numeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="500" column="0" lean-forward="false" selection-start-line="500" selection-start-column="0" selection-end-line="500" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/checkpoint">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/tensorflow/python/training/saver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="1283" column="0" lean-forward="false" selection-start-line="1283" selection-start-column="0" selection-end-line="1283" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="134" column="23" lean-forward="false" selection-start-line="134" selection-start-column="23" selection-end-line="134" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="240" column="0" lean-forward="false" selection-start-line="240" selection-start-column="0" selection-end-line="240" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
