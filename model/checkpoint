@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\amehta02\\PycharmProjects\\practice_keras\\model\\metal-face-model"
-all_model_checkpoint_paths: "C:\\Users\\amehta02\\PycharmProjects\\practice_keras\\model\\metal-face-model"
+model_checkpoint_path: "meta_face_model"
+all_model_checkpoint_paths: "meta_face_model"
