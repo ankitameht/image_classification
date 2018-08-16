@@ -122,7 +122,7 @@ def load_tensorflow(data, batch_size, num_iteration, img_size):
     correct_prediction = tf.equal(y_pred_cls, y_true_cls)
     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 
-    # 
+    #
     session.run(tf.global_variables_initializer())
 
     # perform training
