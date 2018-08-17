@@ -18,3 +18,5 @@ Following file descriptions:
     Currently train.py class has test module as well. This module picks up the saved model and 
     runs classifier on test images.
     
+Google doc link for details:
+https://docs.google.com/document/d/1yUz2zF5UIXyinln17vguvRkil3pAWX9Q1ntuDcwM3bo/edit?usp=sharing
